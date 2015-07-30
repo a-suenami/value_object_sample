@@ -1,7 +1,7 @@
 class ValueObject
-  attr_accessor :value
+  attr_reader :value
 
   def initialize(value)
-    self.value = value
+    @value = value
   end
 end
